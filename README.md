@@ -17,7 +17,7 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000/search
+Open https://search-engine-gold-one.vercel.app/
 
 ## 2. Environment variable
 
@@ -55,19 +55,4 @@ types/
 manual-version/
   ProductSearchManual.tsx
   searchProducts.ts   manual fetch/useState version for comparison
-```
-
-## 4. Assignment mapping
-
-- Parts 1–8: manual React concepts and request lifecycle
-- Parts 9–11: TanStack Query
-- Part 12: debounce/live search
-- Part 13: query normalization
-- Part 14: AbortSignal request cancellation
-- Part 15: caching/staleTime
-- Part 16: API-side limit + pagination
-- Part 17: NEXT_PUBLIC_PRODUCT_API_BASE_URL
-
-## Important learning note
-
-The final app uses TanStack Query because Parts 9–17 ask for it. The `manual-version` folder is kept separately so you can first understand what TanStack Query replaces.
+  
